@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
-
 import 'main.dart';
 
 class NavigationBar extends StatefulWidget {
@@ -73,7 +72,7 @@ class NavigationBarState extends State<NavigationBar> {
       screens: _buildScreens(),
       items: _navBarsItems(),
       navBarStyle: NavBarStyle.style14,
-      backgroundColor: Colors.blue.withOpacity(0.1),
+      backgroundColor: Colors.deepPurple,
       margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
       hideNavigationBarWhenKeyboardShows: true,
       decoration: NavBarDecoration(
